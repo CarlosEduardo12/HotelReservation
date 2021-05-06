@@ -13,10 +13,4 @@ public interface BookingRepository extends JpaRepository<Booking, UUID> {
       List<Booking> findAllByCheckInBetween(LocalDate start, LocalDate end);
       List<Booking> findAllByCheckOutBetween(LocalDate start, LocalDate end);
       List<Booking> findAllByCheckInBeforeAndCheckOutAfter(LocalDate start, LocalDate end);
-
-      List<Booking> findByCheckInBeforeAndCheckOutAfter(LocalDate startDate, LocalDate endDate);
-
-      default List<Booking> findByCheckInBeforeAndCheckOutAfter(LocalDate givenDate) {
-            return findByCheckInBeforeAndCheckOutAfter(givenDate, givenDate);
-      }
 }
