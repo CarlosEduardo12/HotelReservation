@@ -10,10 +10,10 @@ import javax.validation.constraints.NotBlank;
 public class RequestGuestDto {
 
     @Email @Getter
+    @Unique(domainClass = Guest.class, fieldName = "email")
     public String email;
 
     @NotBlank
-    @Unique(domainClass = Guest.class, fieldName = "email")
     public String password;
 
     public RequestGuestDto(String email, String password) {
