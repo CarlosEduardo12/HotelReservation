@@ -198,4 +198,15 @@ The REST API to the HotelReservation app is described below.
         "email": "alten@canada.com",
         "password": "test"
     }
+    
+## Lancer le projet
 
+    
+Après le clonage du projet, nous utiliserons la commande:<br />
+`` sh
+$ mvn clean install
+``<br />
+Nous commençons le Docker compose<br />
+`` sh
+ $ docker-compose up --build
+``
