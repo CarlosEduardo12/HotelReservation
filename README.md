@@ -12,7 +12,8 @@ The API is insecure.
     - Java 11
     - Spring Boot with Maven
     - Postgres database
-  ![Database](https://i.ibb.co/V9Whh8x/Captura-de-Tela-2021-05-06-a-s-14-11-21.png)
+    
+![Database](https://i.ibb.co/V9Whh8x/Captura-de-Tela-2021-05-06-a-s-14-11-21.png)
 
 ## Hotel System Design Architecture
 
