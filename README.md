@@ -210,3 +210,4 @@ Nous commençons le Docker compose<br />
 `` sh
  $ docker-compose up --build
 ``
+.
